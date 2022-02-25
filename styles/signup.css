@@ -1,0 +1,31 @@
+.signupForm{
+    background-color: rgb(34, 190, 201);
+    width: 400px;
+    padding: 50px;
+    color: white;
+    margin: auto;
+    margin-top: 4%;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 5px 6px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(18, 38, 219);
+    box-sizing: border-box;
+  }
+
+  button{
+      width: 100%;
+      padding: 8px 9px;
+      margin: 8px 0;
+      background-color: rgb(13, 151, 185);
+      color: white;
+      border: none;
+      cursor: pointer;
+  }
+
+  button:hover{
+    opacity: 0.8;
+  }
