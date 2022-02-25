@@ -2,6 +2,7 @@
     include('header.php');
     include('footer.php');
     include('functions.php');
+    include('connection.php');
 
     session_start();
     $_SESSION;
