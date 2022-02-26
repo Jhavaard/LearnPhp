@@ -16,4 +16,11 @@
         //header("Location: login.php");
         //die;
     }
+
+    // getting data from Database.
+    function setDataFromDB($Con){
+        $result = mysqli_query($Con, "Select * from users_tb");
+        $user_data = mysqli_fetch_array($result);
+        return  $result;
+    }
 ?>

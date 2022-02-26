@@ -4,6 +4,6 @@
 
 <footer class="main-footer">
     <div class="container">
-        <h1>This is the footer</p>
+        <h1>This is the footer.</p>
     </div>
 </footer>

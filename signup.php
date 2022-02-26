@@ -1,6 +1,5 @@
 <?php
     include('header.php');
-    include('footer.php');
     include('connection.php');
     include('functions.php');
 
@@ -40,5 +39,7 @@
             <button type="submit">Signup now</button>
         </form>
     </div>
+
+    <?php include('footer.php');?>
 </body>
 </html>

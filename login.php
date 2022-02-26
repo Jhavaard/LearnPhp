@@ -1,10 +1,12 @@
 <?php
     include('header.php');
-    include('footer.php');
     include('connection.php');
     include('functions.php');
 
     session_start();
+
+    //Define global variable $user_data
+    $user_data = "";
 
     //check for post - that someone has clicked a button
     if($_SERVER['REQUEST_METHOD'] == "POST"){
@@ -52,5 +54,7 @@
             <button type="submit">Login now</button>
         </form>
     </div>
+
+    <?php include('footer.php');?>
 </body>
 </html>
